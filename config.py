@@ -10,7 +10,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "0ef9fdd3e5f1ed49d4eb918a07b8e5d6")
     BOT_TOKEN = environ.get("BOT_TOKEN", "7782443871:AAEC3CMt6JU_6-ZIFXSVhrUcwIRf_ztHBuY") 
     BOT_SESSION = environ.get("BOT_SESSION", "Auto_Forward") 
-    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://rajpriti712:TxAu9JhCcN4Lj9ms@cluster0.bspnl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URI = environ.get("DATABASE", "mongodb+srv://1by1themes:3snVjsLPmZ9xcbd3@cluster0.uaazt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5597521952').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002140125423'))
