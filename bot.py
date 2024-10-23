@@ -48,7 +48,7 @@ class Bot(Client):
         self.first_name = me.first_name
         self.set_parse_mode(ParseMode.DEFAULT)
         try:
-            await self.send_message(LOG_CHANNEL, text="hello")
+            await self.send_message(Config.LOG_CHANNEL, text="hello")
         except Exception as e:
             print(f"Error: {e}")
         text = "<b>๏[-ิ_•ิ]๏ ʙᴏᴛ ʀᴇsᴛᴀʀᴛᴇᴅ !</b>"
