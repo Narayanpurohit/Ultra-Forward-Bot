@@ -14,7 +14,7 @@ class Config:
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5597521952').split()]
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002140125423'))
-    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "") 
+    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "jn_bots") 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "False")
     PORT = environ.get('PORT', '8080')
     
